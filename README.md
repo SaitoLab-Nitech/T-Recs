@@ -40,7 +40,7 @@ project.configure_keystore(keystore=<path_to_your_key>,
 
 T-Recs analyzes the target app by the following three phases: static bytecode instrumentation, app exercising, and reconstruction.
 
-### Static Bytecode Instrumentation
+### 1. Static Bytecode Instrumentation
 
 Open run_parser_and_instrumentator.py and make sure your keystore information is configured.
 Run the command below.
@@ -50,17 +50,17 @@ When T-Recs finishes successfully, you get <target_apk_name>.pickle in the same 
 python run_parser_and_instrumentator.py <path_to_apk>
 ```
 
-### App Exercising
+### 2. App Exercising
 
 Open run_exerciser.py, and specify your device to be used.
 Run the command below specifying <target_apk_name>.pickle.
-When T-Recs finishes successfully, you get SmalienLog.txt 
+When T-Recs finishes successfully, you get SmalienLog.txt in the same directory as your target apk.
 
 ```
 python run_exerciser.py <path_to_pickle>
 ```
 
-### Reconstruction
+### 3. Reconstruction
 
 Run the command below specifying <target_apk_name>.pickle.
 
