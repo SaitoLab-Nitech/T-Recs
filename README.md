@@ -1,6 +1,13 @@
 # T-Recs
 
-T-Recs is a dynamic taint tracker for detecting information flows in Android apps. For example, T-Recs can be used to find information leaks in Android apps. Our paper is accepted by [SCAM 2022](https://www.ieee-scam.org/2022/#home). Here is a very brief description of how to use T-Recs. If you have any troubles, please feel free to contact us.
+T-Recs is a dynamic taint tracker for detecting information flows in Android apps. For example, T-Recs can be used to find information leaks in Android apps.
+
+T-Recs has been developed along with the following papers:
+
+- [Plug and Analyze: Usable Dynamic Taint Tracker for Android Apps](https://ieeexplore.ieee.org/document/10006867)
+- [Execution Recording and Reconstruction for Detecting Information Flows in Android Apps](https://ieeexplore.ieee.org/document/10032128)
+
+Here is a very brief description of how to use T-Recs. If you have any troubles, please feel free to contact us.
 
 ## Setup
 
